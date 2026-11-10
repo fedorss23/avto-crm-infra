@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: nefor/api:test
+        image: docker.io/nefor32/api:e99689de45bdf52f421d7f61a2082e1e4b7122fc
 
         ports:
         - name: http
