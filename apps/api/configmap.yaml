@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: myapp
+data:
+  SERVER_PORT: "8080"
+  JWT_SECRET: "secret0123"
+  DB_HOST: "postgres"
+  DB_PORT: "5432"
+  DB_NAME: "avto_crm"
+  DB_PASSWORD: "qdrGHty"
+  DB_USER: "postgres"
+  VERSION: "prod"
+  DOMAIN: "176.109.103.133"
+  ISSUER: "176.109.103.133"
+  REDIS_PORT: "6379"
+  REDIS_HOST: "redis"
+  REDIS_PASSWORD: "redis"
+

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: myapp
+  labels:
+    name: myapp
+    enviroment: production
+    team: avto-crm
